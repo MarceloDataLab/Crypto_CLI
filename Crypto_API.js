@@ -10,7 +10,7 @@ let exchange = `${coin} ⟶ ${market}`;
 const request = require('request');
 
 function callApi(coin, interval, market) {
-  const url = `https://www.alphavantage.co/query?function=DIGITAL_CURRENCY_${interval}&symbol=${coin}&market=${market}&apikey=URICEDTCKRGV4I3M`;
+  const url = `https://www.alphavantage.co/query?function=DIGITAL_CURRENCY_${interval}&symbol=${coin}&market=${market}&apikey=DEMO`;
   return new Promise((resolve, reject) => {
     request.get({
       url: url,
