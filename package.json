@@ -1,4 +1,10 @@
 {
+  "name": "crypto-cli",
+  "version": "0.1.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node Crypto_API.js"
+  },
   "dependencies": {
     "20": "^3.1.9",
     "blessed": "^0.1.81",
