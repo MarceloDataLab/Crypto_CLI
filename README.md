@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para criar um **CLI interativo** que mostra as cotações de criptomoedas em tempo real, usando a API gratuita da **Alpha Vantage**.
 
-![funcionalidades](./Resources/CLI.png)
+![funcionalidades](.Resources/CLI.png)
 
 ---
 
@@ -32,6 +32,7 @@ cd crypto-cli
 
 # Instalar dependências
 npm install
+```
 
 ---
 
@@ -39,7 +40,7 @@ npm install
 Pede a tua chave gratuita aqui: 👉 https://www.alphavantage.co/support/#api-key
 e logo ponhe aqui onde diz "DEMO" dentro desta variavel: 
 
-![variavel a trocar](./Resources/API.png)
+![variavel a trocar](.Resources/API.png)
 
 ---
 
